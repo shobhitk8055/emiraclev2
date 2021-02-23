@@ -1,4 +1,3 @@
-<!-- Sign in / sign up modal-->
 <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -33,8 +32,7 @@
                     </div>
                     <button class="btn btn-primary btn-shadow d-block w-100" type="submit">Sign in</button>
                 </form>
-                <form method="POST" action="{{ route('register') }}" class="needs-validation tab-pane fade" autocomplete="off" novalidate id="signup-tab">
-                    @csrf
+                <form method="POST" class="needs-validation tab-pane fade" autocomplete="off" novalidate id="signup-tab">
                     <div class="mb-3">
                         <label class="form-label" for="su-name">Full name</label>
                         <input class="form-control" type="text" id="su-name" name="name" placeholder="John Doe" required>
@@ -69,7 +67,6 @@
         </div>
     </div>
 </div>
-<!-- Quick View Modal-->
 <div class="modal-quick-view modal fade" id="quick-view" tabindex="-1">
     <div class="modal-dialog modal-xl">
         <div class="modal-content">

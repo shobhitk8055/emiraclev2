@@ -7,6 +7,7 @@
 <!-- Navbar 3 Level (Light)-->
 @include('partials.header')
 <!-- Hero slider-->
+
 <section class="tns-carousel tns-controls-lg">
     <div class="tns-carousel-inner" data-carousel-options="{&quot;mode&quot;: &quot;gallery&quot;, &quot;responsive&quot;: {&quot;0&quot;:{&quot;nav&quot;:true, &quot;controls&quot;: false},&quot;992&quot;:{&quot;nav&quot;:false, &quot;controls&quot;: true}}}">
         <!-- Item-->
@@ -50,7 +51,7 @@
         </div>
     </div>
 </section>
-<!-- Popular categories-->
+
 <section class="container position-relative pt-3 pt-lg-0 pb-5 mt-lg-n10" style="z-index: 10;">
     <div class="row">
         <div class="col-xl-8 col-lg-9">
@@ -69,11 +70,10 @@
         </div>
     </div>
 </section>
-<!-- Products grid (Trending products)-->
+
 <section class="container pt-md-3 pb-5 mb-md-3">
     <h2 class="h3 text-center">Trending products</h2>
     <div class="row pt-4 mx-n2">
-        <!-- Product-->
         <div class="col-lg-3 col-md-4 col-sm-6 px-2 mb-4">
             <div class="card product-card">
                 <button class="btn-wishlist btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="left" title="Add to wishlist"><i class="ci-heart"></i></button><a class="card-img-top d-block overflow-hidden" href="shop-single-v1.html"><img src="img/shop/catalog/01.jpg" alt="Product"></a>
@@ -356,7 +356,7 @@
     </div>
     <div class="text-center pt-3"><a class="btn btn-outline-accent" href="shop-grid-ls.html">More products<i class="ci-arrow-right ms-1"></i></a></div>
 </section>
-<!-- Banners-->
+
 <section class="container pb-4 mb-md-3">
     <div class="row">
         <div class="col-md-8 mb-4">
@@ -379,10 +379,9 @@
         </div>
     </div>
 </section>
-<!-- Featured category (Hoodie)-->
+
 <section class="container mb-4 pb-3 pb-sm-0 mb-sm-5">
     <div class="row">
-        <!-- Banner with controls-->
         <div class="col-md-5">
             <div class="d-flex flex-column h-100 overflow-hidden rounded-3" style="background-color: #e2e9ef;">
                 <div class="d-flex justify-content-between px-grid-gutter py-grid-gutter">
@@ -396,11 +395,9 @@
                 </div><a class="d-none d-md-block mt-auto" href="shop-grid-ls.html"><img class="d-block w-100" src="img/home/categories/cat-lg04.jpg" alt="For Women"></a>
             </div>
         </div>
-        <!-- Product grid (carousel)-->
         <div class="col-md-7 pt-4 pt-md-0">
             <div class="tns-carousel">
                 <div class="tns-carousel-inner" data-carousel-options="{&quot;nav&quot;: false, &quot;controlsContainer&quot;: &quot;#hoodie-day&quot;}">
-                    <!-- Carousel item-->
                     <div>
                         <div class="row mx-n2">
                             <div class="col-lg-4 col-6 px-0 px-sm-2 mb-sm-4">
@@ -573,7 +570,7 @@
         </div>
     </div>
 </section>
-<!-- Shop by brand-->
+
 <section class="container py-lg-4 mb-4">
     <h2 class="h3 text-center pb-4">Shop by brand</h2>
     <div class="row">
@@ -591,7 +588,7 @@
         <div class="col-md-3 col-sm-4 col-6"><a class="d-block bg-white shadow-sm rounded-3 py-3 py-sm-4 mb-grid-gutter" href="#"><img class="d-block mx-auto" src="img/shop/brands/12.png" style="width: 150px;" alt="Brand"></a></div>
     </div>
 </section>
-<!-- Blog + Instagram info cards-->
+
 <section class="container-fluid px-0">
     <div class="row g-0">
         <div class="col-md-6"><a class="card border-0 rounded-0 text-decoration-none py-md-4 bg-faded-primary" href="blog-list-sidebar.html">

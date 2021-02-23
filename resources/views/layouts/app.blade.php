@@ -5,7 +5,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
-    <title>Cartzilla | Fashion Store v.1</title>
+    <title>EMiracle V2</title>
     <!-- SEO Meta Tags-->
     <meta name="description" content="Cartzilla - Bootstrap E-commerce Template">
     <meta name="keywords" content="bootstrap, shop, e-commerce, market, modern, responsive,  business, mobile, bootstrap, html5, css3, js, gallery, slider, touch, creative, clean">
@@ -29,14 +29,18 @@
     <!-- Google Tag Manager-->
 </head>
 <!-- Body-->
-<body class="handheld-toolbar-enabled" id="app">
-    @yield('content')
+<body class="handheld-toolbar-enabled">
+
+<div id="app">
+</div>
+
 <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="vendor/simplebar/dist/simplebar.min.js"></script>
 <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
 <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 <script src="vendor/drift-zoom/dist/Drift.min.js"></script>
 <!-- Main theme script-->
+    <script src="{{asset('js/app.js')}}"></script>
 <script src="js/theme.min.js"></script>
 </body>
 
